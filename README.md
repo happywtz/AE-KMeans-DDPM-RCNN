@@ -41,7 +41,9 @@ No observations, predictions, fitted normalization values, cluster centers, mode
 
 ## Data and code availability
 
-The original GitHub repository remains private during peer review. The code currently deposited is accessible to reviewers through [this anonymous repository](https://anonymous.4open.science/r/flood-forecasting-review/), without a GitHub account or an individual access request.
+The original GitHub repository remains private during peer review. The code currently deposited is accessible to reviewers through this anonymous repository, without a GitHub account or an individual access request.
+
+Anonymous review URL: `https://anonymous.4open.science/r/flood-forecasting-review/`
 
 The complete source code will be made publicly available upon acceptance of the manuscript. The hydrological observations used in this study are subject to confidentiality restrictions and are not publicly available. The public code release will not include these confidential observations. See `AVAILABILITY.md` for the data and code availability statement.
 
