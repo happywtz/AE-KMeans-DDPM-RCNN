@@ -1,6 +1,12 @@
 # AE–K-means–DDPM–RCNN
 
-Core code for the rainfall–runoff forecasting study. This is a small code deposit, not the complete experiment package.
+## Associated manuscript
+
+This repository accompanies the manuscript:
+
+> **Autoencoder-guided process stratification and candidate-selected diffusion augmentation for event-scale flood forecasting in a data-scarce basin**
+
+The manuscript is under peer review. This review deposit contains the core implementations of the proposed AE–K-means–DDPM–RCNN framework, rather than the complete experimental code package.
 
 ## Files
 
@@ -33,4 +39,10 @@ The tests use artificial CPU tensors, including a four-step diffusion sampling c
 
 No observations, predictions, fitted normalization values, cluster centers, model weights, candidate pools or experiment tables are included. Experiment scheduling, candidate selection and result aggregation are also outside this package.
 
-The repository is intended to remain private during review. The four core components are planned for public release upon manuscript acceptance; the hydrological observations remain restricted. See `AVAILABILITY.md` for the proposed statement. No open-source license has yet been chosen for the project-specific code. The DDPM-derived code retains its upstream MIT notice in `THIRD_PARTY_DDPM_LICENSE`.
+## Data and code availability
+
+The original GitHub repository remains private during peer review. The code currently deposited is accessible to reviewers through [this anonymous repository](https://anonymous.4open.science/r/flood-forecasting-review/), without a GitHub account or an individual access request.
+
+The complete source code will be made publicly available upon acceptance of the manuscript. The hydrological observations used in this study are subject to confidentiality restrictions and are not publicly available. The public code release will not include these confidential observations. See `AVAILABILITY.md` for the data and code availability statement.
+
+No open-source license has yet been chosen for the project-specific code. The DDPM-derived code retains its upstream MIT notice in `THIRD_PARTY_DDPM_LICENSE`.
