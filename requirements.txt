@@ -2,3 +2,4 @@ numpy
 torch
 einops
 tqdm
+scikit-learn

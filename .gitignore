@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Confidential observations and fitted study artifacts must never be committed.
+data/
+private/
+checkpoints/
+candidate_pools/
+generated/
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.xls
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.ckpt
+.env
+.env.*
